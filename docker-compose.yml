@@ -1,6 +1,6 @@
 services:
   loregonbackend:
-    image: felpsdevilla/loregon_server:v1.0.0
+    image: felpsdevilla/loregon_server:latest
     restart: always
     ports:
       - "8080:80"
